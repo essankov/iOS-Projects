@@ -54,7 +54,7 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="Y4o-HT-O2x" id="apg-Z7-Gwf"/>
-                        <outlet property="qustionLabel" destination="Pgk-Re-nEk" id="Hve-zG-nZa"/>
+                        <outlet property="questionLabel" destination="Pgk-Re-nEk" id="aFY-La-HtY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
