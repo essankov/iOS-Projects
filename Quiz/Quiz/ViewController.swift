@@ -11,19 +11,23 @@ import UIKit
 class ViewController: UIViewController {
     
     //Labels
-    
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
     
     let questions: [String] = [
-        "What is 7+7?",
-        "What is the capital of Vermont?",
-        "What is cognac made from?"
+        "Who is the best one in the world?",
+        "What is the best team in Premier League?",
+        "How is the best soccer player?",
+        "taco 🌮 or pizza 🍕",
+        "Mac or Windows"
     ]
     let answers: [String] = [
-        "14",
-        "Montpelier",
-        "Grapes" ]
+        "Issa 😎",
+        "Arsenal F.C. ⚽️",
+        "Thierry Henry ⚽️",
+        "pizza 🍕",
+        "Linux 🐧"
+    ]
     var currentQuestionIndex: Int = 0
     
     //Buttons
