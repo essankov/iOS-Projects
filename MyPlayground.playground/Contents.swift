@@ -23,9 +23,23 @@ var array :[String] = ["Essa", "loooool", "what's up"]
 
 
 //range
-
 let maxNum = 1...5
 for num in maxNum
 {
     print(num)
+}
+
+
+//if
+
+let buttonPressed : String = "right"
+var playerPosition : Int = 0
+
+if (buttonPressed == "right")
+{
+    playerPosition += 1
+}
+else
+{
+    playerPosition -= 1
 }
